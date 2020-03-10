@@ -72,6 +72,9 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
             <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
                 <ul class=\"navbar-nav mr-auto\">
                     <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"/nextweek\">Next Week</a>
+                    </li>
+                    <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"/history\">History</a>
                     </li>
                     <li class=\"nav-item\">
@@ -91,15 +94,15 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
 <main role=\"main\" class=\"container main\">
     ";
-        // line 41
+        // line 44
         $this->displayBlock('body', $context, $blocks);
-        // line 42
+        // line 45
         echo "</main>
 
 ";
-        // line 44
+        // line 47
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 45
+        // line 48
         echo "</body>
 </html>
 ";
@@ -148,7 +151,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
     }
 
-    // line 41
+    // line 44
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -166,7 +169,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
     }
 
-    // line 44
+    // line 47
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -191,7 +194,7 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
     public function getDebugInfo()
     {
-        return array (  170 => 44,  152 => 41,  134 => 10,  115 => 5,  103 => 45,  101 => 44,  97 => 42,  95 => 41,  63 => 11,  61 => 10,  53 => 5,  47 => 1,);
+        return array (  173 => 47,  155 => 44,  137 => 10,  118 => 5,  106 => 48,  104 => 47,  100 => 45,  98 => 44,  63 => 11,  61 => 10,  53 => 5,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -217,6 +220,9 @@ class __TwigTemplate_742b5c9a54a8c31b890487f066635285b4dfb6db44e2822ee2f8f73a456
 
             <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
                 <ul class=\"navbar-nav mr-auto\">
+                    <li class=\"nav-item\">
+                        <a class=\"nav-link\" href=\"/nextweek\">Next Week</a>
+                    </li>
                     <li class=\"nav-item\">
                         <a class=\"nav-link\" href=\"/history\">History</a>
                     </li>

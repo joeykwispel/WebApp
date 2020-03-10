@@ -1,4 +1,0 @@
-swiftmailer:
-    transport: gmail
-        username:
-        password:
