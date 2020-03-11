@@ -24,7 +24,7 @@ class ContactController extends AbstractController
 
             $contactFormData = $form->getData();
 
-            $message = (new \Swift_Message('You Got Mail!'))
+            $message = (new \Swift_Message('Contact info'))
                 ->setFrom('discordtestpokecord@gmail.com')
                 ->setTo($contactFormData['email'])
                 ->setBody(
